@@ -1,7 +1,7 @@
 # TnpB
 =======
 
-  To run please download the data from the the dropbox (https://www.dropbox.com/scl/fo/6s5lge7nvzzdnvzqmgro9/h?dl=0&rlkey=tuvedpxu80pmclim1sf2tpent) and place it to the current directory (/data/processed)
+  To retrain the model please process the data  and place it in the current directory /data/processed
 
 # Jupyter Notebooks 📔:
 

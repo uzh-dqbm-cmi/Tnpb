@@ -4,6 +4,7 @@
 To train the model your self:
 
   Use requirement.txt file to set uo the environment
+  
   To retrain the model please process the data  and place it in the current directory /data/processed
 
 # Jupyter Notebooks 📔:

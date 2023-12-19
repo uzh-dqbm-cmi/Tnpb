@@ -3,7 +3,7 @@
 
 To train the model yourself:
 
-  -Use requirement.txt file to set uo the environment
+  -Use the requirement.txt file to set up the environment
   
   -To retrain the model please process the data  and place it in the current directory /data/processed
 
@@ -16,4 +16,4 @@ To train the model yourself:
 
 
 =======
-We also set up a web-based user friendly interface https://www.tnpb.app/ where you can use our model model directly without installing or running any python code.
+We also set up a web-based user-friendly interface https://www.tnpb.app/ where you can use our model model directly without installing or running any python code.

@@ -1,11 +1,11 @@
 # TnpB
 =======
 
-To train the model your self:
+To train the model yourself:
 
-  Use requirement.txt file to set uo the environment
+  -Use requirement.txt file to set uo the environment
   
-  To retrain the model please process the data  and place it in the current directory /data/processed
+  -To retrain the model please process the data  and place it in the current directory /data/processed
 
 # Jupyter Notebooks 📔:
 - run `data_preprocess.ipynb` to prepare the data

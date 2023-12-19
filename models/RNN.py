@@ -156,8 +156,8 @@ class PredictionRNN(nn.Module):
 
         outp = self.Wy(z_f)
 
-        #return outp.squeeze(-1)
-        return outp
+        return outp.squeeze(-1)
+        #return outp
     
 class MLPBlock(nn.Module):
             

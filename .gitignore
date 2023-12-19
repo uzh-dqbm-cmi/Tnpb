@@ -133,7 +133,7 @@ crispr_private/
 data/processed/
 data/TnpB_nuclease_screen_for_ML/
 data/TnpB_nuclease_screen_for_ML.csv
-data/TnpB_nuclease_screen_for_ML_with_features.csv
+
 notebooks/
 FFN_main.ipynb
 XG-boost_main.ipynb

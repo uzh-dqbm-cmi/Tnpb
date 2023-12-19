@@ -101,7 +101,7 @@ def get_datatensor_partitions(data_partitions, model_name, x_proto, y, x_feat=No
                                                shuffle=True)
             
         else:
-            print('we are at the testing face')
+            
             tr_index =  data_partitions[i]['test_index']
             val_index =  data_partitions[i]['test_index']
             
@@ -113,7 +113,7 @@ def get_datatensor_partitions(data_partitions, model_name, x_proto, y, x_feat=No
     num_runs = len(dpartitions)
 
     if model_name in {'FFN', 'CNN'}:
-        print('we are here')
+        #print('we are here')
         xproto_dtype = fdtype
         xfeat_dtype = fdtype
         ydtype = fdtype

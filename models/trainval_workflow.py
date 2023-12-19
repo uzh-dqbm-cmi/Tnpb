@@ -245,7 +245,7 @@ def run_trainevaltest_workflow(datatensor_partitions, config_map, train_val_dir,
             modelscore_train = perfmetric_report_regression(np.array(pred_class), np.array(ref_class), epoch, flog_out['train'])
             perfmetric_map['train'].append(modelscore_train.correlation)
 
-            print('x'*25)
+            #print('x'*25)
 
             valid_loss, valid_y_pred, valid_y = model_eval(model, valid_dataloader, loss_func, device)
             test_loss, test_y_pred, test_y = model_eval(model, test_dataloader, loss_func, device)
@@ -255,10 +255,10 @@ def run_trainevaltest_workflow(datatensor_partitions, config_map, train_val_dir,
 
 
             modelscore_validation = perfmetric_report_regression(np.array(valid_y_pred), np.array(valid_y), epoch, flog_out['validation'])
-            print('x'*25)
+            #print('x'*25)
             
             modelscore_test = perfmetric_report_regression(np.array(test_y_pred), np.array(test_y), epoch, flog_out['test'])
-            print('x'*25)
+            #print('x'*25)
 
             perfmetric_map['validation'].append(modelscore_validation.correlation)
             perfmetric_map['test'].append(modelscore_test.correlation)
@@ -272,8 +272,9 @@ def run_trainevaltest_workflow(datatensor_partitions, config_map, train_val_dir,
                 score_dict['test'] = modelscore_test
 
 
-                print(f"Epoch {epoch+1}/{num_epochs}, Training Loss: {train_loss:.4f}, Validation Loss: {valid_loss:.4f}, Test loss: {test_loss:.4f}")
-                print(f"Epoch {epoch+1}/{num_epochs}, best {perfmetric_name} corr. so far: {best_perfscore:.4f}")
+                #print(f"Epoch {epoch+1}/{num_epochs}, Training Loss: {train_loss:.4f}, Validation Loss: {valid_loss:.4f}, Test loss: {test_loss:.4f}")
+                print(f"Epoch {epoch+1}/{num_epochs}, Training Loss: {train_loss:.4f}, Validation Loss: {valid_loss:.4f}")
+                print(f"Epoch {epoch+1}/{num_epochs}, best {perfmetric_name} corr. on the validation set so far: {best_perfscore:.4f}")
                 print('~'*25)
 
 
@@ -352,7 +353,7 @@ def run_inference(datatensor_partitions, train_val_dir, test_dir, gpu_indx, to_g
 
         fdtype = exp_options['fdtype']
         num_epochs = 1
-        print('number of epochs', num_epochs)
+        #print('number of epochs', num_epochs)
 
         
         
@@ -371,7 +372,7 @@ def run_inference(datatensor_partitions, train_val_dir, test_dir, gpu_indx, to_g
         
         model_name = exp_options.get('model_name')
         print('model_name:', model_name)
-        print('input_size:', input_size)
+        #print('input_size:', input_size)
 
         if model_name == 'Transformer':
             model = PredictionTransformer(input_size=input_size,

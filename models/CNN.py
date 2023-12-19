@@ -80,8 +80,8 @@ class PredictionCNN(nn.Module):
         
         output = self.Wy(z_final)
         
-        #return output.squeeze(-1)
-        return output
+        return output.squeeze(-1)
+        #return output
 
 class MLPBlock(nn.Module):
             

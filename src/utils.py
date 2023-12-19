@@ -85,33 +85,45 @@ def perfmetric_report_regression(pred_target, ref_target, epoch, outlog):
     report = "Epoch: {}".format(epoch) + lsep
     report += "Regression report on all events:" + lsep
     #report += str(classification_report(ref_target, pred_target)) + lsep
-
     
-    report += "MAE:" + lsep
-    MAE = mean_absolute_error(ref_target, pred_target)
-    #MAE = (np.absolute(pred_target-ref_target)).mean()
-    report += str(MAE) + lsep
-
-    report += "MSE:" + lsep
-    MSE = mean_squared_error(ref_target, pred_target)
-    report += str(MSE) + lsep
-
-    report += "Correlation coefficient:" + lsep
-    #print(ref_target.shape)
-    #print(pred_target.shape)
-    correlation = np.corrcoef(ref_target.squeeze(), pred_target)[0,1]
-    report += str(correlation) + lsep
-
-    spearman_corr, pvalue_spc = compute_spearman_corr(pred_target, ref_target)
-    pearson_corr, pvalue_prc = compute_pearson_corr(pred_target, ref_target)
-
-    report += "Spearman coefficient:" + lsep
-    report += str(spearman_corr) + lsep
+    if max(ref_target) > 0:
+        
+        
     
-    report += "Pearson coefficient:" + lsep
-    report += str(pearson_corr) + lsep
+        report += "MAE:" + lsep
+        MAE = mean_absolute_error(ref_target, pred_target)
+        #MAE = (np.absolute(pred_target-ref_target)).mean()
     
-    report += "-"*30 + lsep
+        report += str(MAE) + lsep
+
+        report += "MSE:" + lsep
+        MSE = mean_squared_error(ref_target, pred_target)
+        report += str(MSE) + lsep
+
+        report += "Correlation coefficient:" + lsep
+        #print(ref_target.shape)
+        #print(pred_target.shape)
+        correlation = np.corrcoef(ref_target.squeeze(), pred_target)[0,1]
+        report += str(correlation) + lsep
+
+        spearman_corr, pvalue_spc = compute_spearman_corr(pred_target, ref_target)
+        pearson_corr, pvalue_prc = compute_pearson_corr(pred_target, ref_target)
+
+        report += "Spearman coefficient:" + lsep
+        report += str(spearman_corr) + lsep
+    
+        report += "Pearson coefficient:" + lsep
+        report += str(pearson_corr) + lsep
+    
+        report += "-"*30 + lsep
+    
+    else:
+        print('the true target is not provided')
+        MAE = 0
+        MSE = 0
+        spearman_corr = 0
+        pearson_corr = 0
+        
     # (best_epoch_indx, binary_f1, macro_f1, aupr, auc)
     modelscore = RegModelScore(epoch,  MAE, MSE, (spearman_corr, pearson_corr))
     ReaderWriter.write_log(report, outlog)
@@ -274,7 +286,7 @@ class ReaderWriter(object):
                mode: specify writing options i.e. append, write
         """
         with open(outfile, mode) as f:
-            print(line)
+            #print(line)
             f.write(line)
 
     @staticmethod

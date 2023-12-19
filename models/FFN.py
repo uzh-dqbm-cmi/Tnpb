@@ -54,8 +54,8 @@ class RegressionFFNN(nn.Module):
                
                 init.kaiming_uniform_(m.weight)
                 init.zeros_(m.bias)
-            else:
-                print('did not intialized')
+            #else:
+                #print('did not intialized')
         
     def forward(self, x_proto, x_feat=None):
         
@@ -72,8 +72,8 @@ class RegressionFFNN(nn.Module):
             
         output = self.fc3(z_final)
         
-        #return output.squeeze(-1)
-        return output
+        return output.squeeze(-1)
+        #return output
     
     
     

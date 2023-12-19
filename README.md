@@ -1,5 +1,9 @@
 # TnpB
 =======
+  To use the model directly without installing and runing any python code,  you can visit the website https://www.tnpb.app/
+=======
+To train the model your self:
+
   Use requirement.txt file to set uo the environment
   To retrain the model please process the data  and place it in the current directory /data/processed
 

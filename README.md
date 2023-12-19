@@ -1,7 +1,6 @@
 # TnpB
 =======
-  To use the model directly without installing and runing any python code,  you can visit the website https://www.tnpb.app/
-=======
+
 To train the model your self:
 
   Use requirement.txt file to set uo the environment
@@ -13,3 +12,7 @@ To train the model your self:
 - run `models_inference.ipynb` or `models_inference.py` to run the trained models (i.e inference mode).
   - trained models ( `FFN`, `RNN`, `CNN`, `Transformer` based) are found under `output` directory 
 - run `user_sample_inference.ipynb`  to test out on your sample data, the current example test file is: data/Endogenous_spacers_TnpB_list.csv.  Predicted output for the test samples are saved under `output` directory 
+
+To use the model directly without installing and runing any python code,  you can visit the website https://www.tnpb.app/
+=======
+We also set up a web-based user friendly interface https://www.tnpb.app/ where you can use our model model directly without installing or running any python code.

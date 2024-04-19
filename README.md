@@ -1,7 +1,7 @@
 # TnpB
 =======
 
-To train the model yourself:
+## To train the model yourself:
 
   -Use the requirement.txt file to set up the environment
   
@@ -14,6 +14,16 @@ To train the model yourself:
   - trained models ( `FFN`, `RNN`, `CNN`, `Transformer` based) are found under `output` directory 
 - run `user_sample_inference.ipynb`  to test out on your sample data, the current example test file is: data/Endogenous_spacers_TnpB_list.csv.  Predicted output for the test samples are saved under `output` directory 
 
+## To use the model for inference:
+
+     -Use the requirement.txt file to set up the environment
+
+    - place your Excel data file that includes the target sequences that you want to predict under the folder data, for instance     ./data/Endogenous_spacers_TnpB_list.csv
+    
+    - Download the trained model (the folder named output) from the link      and add it to the current directory  /output
+
+    - run `user_sample_inference.ipynb`  to test out on your sample data, the current example test file is data/Endogenous_spacers_TnpB_list.csv.  The predicted output for the test samples is saved under the `output` directory 
+    
 
 =======
 We also set up a web-based user-friendly interface https://www.tnpb.app/ where you can use our model model directly without installing or running any python code.

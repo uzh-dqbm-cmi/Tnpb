@@ -1,25 +1,32 @@
-# TnpB
-=======
+# TnpB Model Setup and Usage Guide
 
-## To train the model yourself:
+## Environment Setup
+To prepare your environment for training or inference:
+- Install required libraries using the `requirements.txt` file.
 
-  -Use the requirement.txt file to set up the environment
-  
-  -To retrain the model please process the data  and place it in the current directory /data/processed
+## Model Training
+To train the TnpB model, follow these steps:
+1. **Data Preparation**
+   - Run `data_preprocess.ipynb` to process the data and save it in the `/data/processed` directory.
+2. **Model Training and Evaluation**
+   - Execute `models_trainvaltest.ipynb` or `models_trainvaltest.py` to train and evaluate the models.
+   - Supported models include: `FFN`, `RNN`, `CNN`, `Transformer`.
+   - Trained models are saved in the `/output` directory.
+3. **Inference**
+   - Use `models_inference.ipynb` or `models_inference.py` for running inference with trained models.
+4. **Sample Testing**
+   - Execute `user_sample_inference.ipynb` to test the model on your data. Example test file: `data/Endogenous_spacers_TnpB_list.csv`.
+   - Predictions are saved in the `/output` directory.
 
- #scripts
-- run `data_preprocess.ipynb` to prepare the data
-- run `models_trainvaltest.ipynb` or `models_trainvaltest.py`   to train and evaluate models
-- run `models_inference.ipynb` or `models_inference.py` to run the trained models (i.e inference mode).
-  - trained models ( `FFN`, `RNN`, `CNN`, `Transformer` based) are found under `output` directory 
-- run `user_sample_inference.ipynb`  to test out on your sample data, the current example test file is: data/Endogenous_spacers_TnpB_list.csv.  Predicted output for the test samples are saved under `output` directory 
+## Model Inference
+For running model inference:
+1. **Setup**
+   - Ensure the environment is set up using `requirements.txt`.
+   - Place your Excel data file containing target sequences at `./data/Endogenous_spacers_TnpB_list.csv`.
+2. **Model Download**
+   - Download the trained model from [this Dropbox link](https://www.dropbox.com/scl/fo/w2o66tafvt8upzcduwo52/ACNeSe1lCbruhiATdzeHKEI?rlkey=0l34lfkmguy88wvwjt18qxbco&st=also9pij&dl=0) and add it to the `/output` directory.
+3. **Run Inference**
+   - Run `user_sample_inference.ipynb` to test your sample data. Predicted outputs are stored in the `/output` directory.
 
-## To use the model for inference:
- -Use the requirement.txt file to set up the environment
- - place your Excel data file that includes the target sequences that you want to predict under the folder data, for instance     ./data/Endogenous_spacers_TnpB_list.csv
- - Download the trained model (the folder named output) from the link  https://www.dropbox.com/scl/fo/w2o66tafvt8upzcduwo52/ACNeSe1lCbruhiATdzeHKEI?rlkey=0l34lfkmguy88wvwjt18qxbco&st=also9pij&dl=0     and add it to the current directory  /output
- - run `user_sample_inference.ipynb`  to test out on your sample data, the current example test file is data/Endogenous_spacers_TnpB_list.csv.  The predicted output for the test samples is saved under the `output` directory 
-    
-
-=======
-We also set up a web-based user-friendly interface https://www.tnpb.app/ where you can use our model model directly without installing or running any python code.
+## Web Interface
+- Access our web-based interface at [tnpb.app](https://www.tnpb.app/) to use the model directly without installing or running any Python code.

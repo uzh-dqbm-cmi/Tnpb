@@ -1,10 +1,5 @@
 
 # TnpB Model Setup and Usage Guide
-<p align="center">
-  <img src="./tnpn_readme.png" alt="Logo" width="3000"/>
-</p>
-
-
 ## Overview
 This guide details the steps necessary for setting up the environment, training, and using the TnpB model for both training and inference.
 

@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # user spercified
-output/
+saved_models/
 crispr_private/
 data/processed/
 data/TnpB_nuclease_screen_for_ML/

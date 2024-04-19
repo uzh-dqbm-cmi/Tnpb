@@ -15,14 +15,10 @@
 - run `user_sample_inference.ipynb`  to test out on your sample data, the current example test file is: data/Endogenous_spacers_TnpB_list.csv.  Predicted output for the test samples are saved under `output` directory 
 
 ## To use the model for inference:
-
-     -Use the requirement.txt file to set up the environment
-
-    - place your Excel data file that includes the target sequences that you want to predict under the folder data, for instance     ./data/Endogenous_spacers_TnpB_list.csv
-    
-    - Download the trained model (the folder named output) from the link      and add it to the current directory  /output
-
-    - run `user_sample_inference.ipynb`  to test out on your sample data, the current example test file is data/Endogenous_spacers_TnpB_list.csv.  The predicted output for the test samples is saved under the `output` directory 
+ -Use the requirement.txt file to set up the environment
+ - place your Excel data file that includes the target sequences that you want to predict under the folder data, for instance     ./data/Endogenous_spacers_TnpB_list.csv
+ - Download the trained model (the folder named output) from the link  https://www.dropbox.com/scl/fo/w2o66tafvt8upzcduwo52/ACNeSe1lCbruhiATdzeHKEI?rlkey=0l34lfkmguy88wvwjt18qxbco&st=also9pij&dl=0     and add it to the current directory  /output
+ - run `user_sample_inference.ipynb`  to test out on your sample data, the current example test file is data/Endogenous_spacers_TnpB_list.csv.  The predicted output for the test samples is saved under the `output` directory 
     
 
 =======

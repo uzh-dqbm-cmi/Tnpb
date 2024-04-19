@@ -27,6 +27,7 @@ For running model inference:
    - Download the trained model from [this Dropbox link](https://www.dropbox.com/scl/fo/w2o66tafvt8upzcduwo52/ACNeSe1lCbruhiATdzeHKEI?rlkey=0l34lfkmguy88wvwjt18qxbco&st=also9pij&dl=0) and add it to the `/output` directory.
 3. **Run Inference**
    - Run `user_sample_inference.ipynb` to test your sample data. Predicted outputs are stored in the `/output` directory.
+   - You can also directly run  `python user_sample_inference.py -data_name 'Endogenous_spacers_TnpB_list.csv'`
 
 ## Web Interface
 - Access our web-based interface at [tnpb.app](https://www.tnpb.app/) to use the model directly without installing or running any Python code.

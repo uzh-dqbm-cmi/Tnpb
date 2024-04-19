@@ -1,7 +1,7 @@
 
 # TnpB Model Setup and Usage Guide
 <p align="center">
-  <img src="./tnpb_readme.png" alt="Logo" width="400"/>
+  <img src="./tnpn_readme.png" alt="Logo" width="400"/>
 </p>
 
 

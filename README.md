@@ -1,8 +1,21 @@
 # TnpB Model Setup and Usage Guide
 
+## Overview
+This guide details the steps necessary for setting up the environment, training, and using the TnpB model for both training and inference.
+
 ## Environment Setup
-To prepare your environment for training or inference:
-- Install required libraries using the `requirements.txt` file.
+
+### Creating a Virtual Environment
+We recommend using Conda to manage your Python environments. Follow these steps to set up a dedicated environment for this project:
+
+1. **Create the Environment**:
+   ```bash
+   conda create --name Tnpb python=3.6
+   conda activate Tnpb
+   conda install -c anaconda python=3.6
+   pip install -r requirements.txt
+
+
 
 ## Model Training
 To train the TnpB model, follow these steps:

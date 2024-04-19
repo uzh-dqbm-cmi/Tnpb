@@ -53,7 +53,7 @@ gpu_index = 0
 res_desc = {}
 num_runs = 5 # number of trained model folds to use for prediction
 version=2
-for model_name in ['RNN', 'CNN']#, 'RNN', 'Transformer']:
+for model_name in ['RNN', 'CNN']:#, 'RNN', 'Transformer']:
     args.model_name =  model_name# {'RNN','CNN', 'Transformer'}
     res_desc[model_name] = {}
     for exp_name in ['protospacer']:

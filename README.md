@@ -10,7 +10,7 @@ We recommend using Conda to manage your Python environments. Follow these steps 
 
 1. **Create the Environment**:
    ```bash
-   conda create --name Tnpb python=3.6
+   conda create --name Tnpb 
    conda activate Tnpb
    conda install -c anaconda python=3.6
    pip install -r requirements.txt

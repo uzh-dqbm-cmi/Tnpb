@@ -7,7 +7,7 @@
   
   -To retrain the model please process the data  and place it in the current directory /data/processed
 
-# Jupyter Notebooks 📔:
+ #scripts
 - run `data_preprocess.ipynb` to prepare the data
 - run `models_trainvaltest.ipynb` or `models_trainvaltest.py`   to train and evaluate models
 - run `models_inference.ipynb` or `models_inference.py` to run the trained models (i.e inference mode).

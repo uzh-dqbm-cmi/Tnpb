@@ -1,3 +1,4 @@
+![Alt text for the image](./tnpb_readme.png)
 # TnpB Model Setup and Usage Guide
 
 ## Overview

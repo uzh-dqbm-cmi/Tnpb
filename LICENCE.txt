@@ -1,21 +1,34 @@
 BY DOWNLOADING OR USING THE CODE, YOU ARE CONSENTING TO BE AND AGREE TO BE BOUND BY ALL OF THE TERMS OF THIS LIMITED LICENSE, WHICH FOLLOW:
+
 • You agree you will not use the Code, or any information derived from the Code, for any commercial purposes whatsoever.
+
 • You agree you are an actively enrolled student, post-doctoral researcher, or faculty member at a degree-granting educational institution or US government research institution.
+
 • You agree you will only use the Code for educational, instructional, and/or non-commercial research purposes.
+
 • You understand that to obtain any right to use the Code for commercial purposes, including in the context of industrially sponsored research, you must enter into an appropriate separate and direct license agreement. For information on such licensing, please contact the corresponding author: schwank@pharma.uzh.ch
+
 • You agree you will not redistribute unmodified versions of the Code.
+
 • You agree you will only modify the Code for educational, instructional, and/or non-commercial research purposes.
+
 • You agree that if you redistribute any modifications of the Code, you will redistribute those modifications under the same terms as this license and only to non-profits and US government institutions.
+
 • For any use of the Code, including any modifications of the code, you agree you will credit the authors of the following manuscript:
+
 Title: Effective Genome Editing with ISDra2 TnpB and Deep Learning-Predicted ωRNAs 
+
 Kim Fabiano Marquart1,2, Nicolas Mathis1, Amina Mollaysa3, Saphira Müller1, Lucas Kissling1, Tanja Rothgangl1, Lukas Schmidheini1,2, Péter István Kulcsár1, Ahmed Allam3, Masako M. Kaufmann4,5, Mai Matsushita2, Tatjana Haenggi1, Toni Cathomen4,6, Manfred Kopf2, Michael Krauthammer3 and Gerald Schwank1*
+
 Affiliations:	
-1Institute of Pharmacology and Toxicology, University of Zurich; Zurich, Switzerland
-2Institute of Molecular Health Sciences, ETH Zurich; Zurich, Switzerland
-3Department of Quantitative Biomedicine, University of Zurich; Zurich, Switzerland
-4Institute for Transfusion Medicine and Gene Therapy, Medical Center - University of Freiburg; Freiburg, Germany
-5Spemann Graduate School of Biology and Medicine, University of Freiburg; Freiburg, Germany
-6Center for Chronic Immunodeficiency, Faculty of Medicine, University of Freiburg; Freiburg, Germany
+1. Institute of Pharmacology and Toxicology, University of Zurich; Zurich, Switzerland
+2. Institute of Molecular Health Sciences, ETH Zurich; Zurich, Switzerland
+3. Department of Quantitative Biomedicine, University of Zurich; Zurich, Switzerland
+4. Institute for Transfusion Medicine and Gene Therapy, Medical Center - University of Freiburg; Freiburg, Germany
+5. Spemann Graduate School of Biology and Medicine, University of Freiburg; Freiburg, Germany
+6. Center for Chronic Immunodeficiency, Faculty of Medicine, University of Freiburg; Freiburg, Germany
+
 *Corresponding author. Email: schwank@pharma.uzh.ch
+
 • You agree to use neither the names of the owners or the names of the authors of the manuscript (above), to endorse or promote products or information derived from this software, without specific, prior written permission.
 

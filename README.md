@@ -44,3 +44,7 @@ For running model inference:
 
 ## Web Interface
 - Access our web-based interface at [tnpb.app](https://www.tnpb.app/) to use the model directly without installing or running any Python code.
+
+
+## Web Interface
+- BY DOWNLOADING OR USING THE CODE, YOU ARE CONSENTING TO BE AND AGREE TO BE BOUND BY ALL OF THE TERMS OF THIS LIMITED LICENSE DESCRIBED IN LICENCE.TXT FILE

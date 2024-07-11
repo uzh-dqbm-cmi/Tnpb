@@ -47,4 +47,4 @@ For running model inference:
 
 
 ## Web Interface
-- BY DOWNLOADING OR USING THE CODE, YOU ARE CONSENTING TO BE AND AGREE TO BE BOUND BY ALL OF THE TERMS OF THIS LIMITED LICENSE DESCRIBED IN LICENCE.TXT FILE
+- By downloading or using the code, you are consenting to be and agree to be bound by all of the terms of this limited license described in license.txt file.

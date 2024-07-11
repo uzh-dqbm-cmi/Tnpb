@@ -47,4 +47,4 @@ For running model inference:
 
 
 ## License
-- By downloading or using the code, you are consenting to be and agree to be bound by all of the terms of this limited license described in license.txt file.
+- By downloading or using the code, you are consenting to be and agree to be bound by all of the terms of this limited license described in [license.txt file](https://github.com/uzh-dqbm-cmi/Tnpb/blob/master/LICENCE.txt).
